@@ -1,0 +1,161 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+header {
+  width:100%;
+  height:50px;
+  background-color:#ff9a4b;
+}
+
+main {
+  width:960px;
+  margin:50px 0 50px 0;
+  display:flex;
+  flex-wrap:wrap;
+  margin-right:auto;
+  margin-left:auto;
+}
+
+.box {
+  width:300px;
+  background-color:#eeeeee;
+  margin:0 30px 0 0;
+}
+
+.box:last-child{
+  margin:0 0 0 0;
+}
+
+.step {
+  width:auto;
+  height:auto;
+  background-color:#ff9a4b;
+  color:#fff;
+  position:absolute;
+  top:100px;
+}
+
+.img1 {
+  width:280px;
+  height:150px;
+  background-image:url(img/flow01.png);
+  background-size:cover;
+  background-position:bottom;
+  margin:10px 10px 0 10px;
+}
+
+.img2 {
+  width:280px;
+  height:150px;
+  background-image:url(img/flow02.png);
+  background-size:cover;
+  background-position:bottom;
+  margin:10px 10px 0 10px;
+}
+
+.img3 {
+  width:280px;
+  height:150px;
+  background-image:url(img/flow03.png);
+  background-size:cover;
+  background-position:bottom;
+  margin:10px 10px 0 10px;
+}
+
+.title {
+  margin:15px 10px 5px 10px;
+}
+
+p {
+  display:block;
+  margin:0 10px 10px 10px;
+}
+
+footer {
+  width:100%;
+  height:50px;
+  background-color:#aaaaaa;
+}
+
+@media screen and (max-width:768px) {
+  
+  main {
+  width:100%;
+  height:auto;
+  display:block;
+  font-size:21px;
+  text-align:justify;
+  letter-spacing:0.6px;
+}
+  
+  .box {
+  width:90%;
+  margin:0 auto 20px auto;
+  padding:10px;
+}
+
+.box:last-child{
+  margin:0 auto 0 auto;
+}
+
+.step1 {
+  width:auto;
+  height:auto;
+  position:absolute;
+  top:100px;
+  left:39px;
+}
+
+.step2 {
+  width:auto;
+  height:auto;
+  position:absolute;
+  top:542px;
+  left:39px;
+}
+
+.step3 {
+  width:auto;
+  height:auto;
+  position:absolute;
+  top:983px;
+  left:39px;
+}
+
+.img1 {
+  width:auto;
+  height:250px;
+  background-size:cover;
+  background-position:right bottom;
+  margin:0;
+}
+
+.img2 {
+  width:auto;
+  height:250px;
+  background-size:cover;
+  background-position:right bottom;
+  margin:0;
+}
+
+.img3 {
+  width:auto;
+  height:250px;
+  background-size:cover;
+  background-position:right bottom;
+  margin:0;
+}
+
+.title {
+  margin:15px 0 5px 0;
+}
+
+p {
+  display:block;
+  margin:0;
+}
+
+  }
